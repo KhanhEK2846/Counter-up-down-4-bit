@@ -1,10 +1,10 @@
  `timescale 1ns/1ns
  
- module Counter_lab5_Testbench();
+ module Counter_Testbench();
   reg  up_down,enable,reset_n,clock;
   wire [3:0] q_out;
   
-  Counter_lab5 C1 (.q_out(q_out),
+  Counter C1 (.q_out(q_out),
                       .up_down(up_down),
                       .enable(enable),
                       .reset_n(reset_n),
