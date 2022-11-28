@@ -1,4 +1,4 @@
-module Counter_lab5(q_out,up_down,enable,reset_n,clock);
+module Counter(q_out,up_down,enable,reset_n,clock);
 output reg [3:0] q_out;
 input up_down,enable,reset_n,clock;
 always@(posedge clock or negedge reset_n)
